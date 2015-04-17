@@ -1,0 +1,19 @@
+{
+    "name": "MvcMusicStore",
+    "version": "1.0.0",
+    "authors": [
+        "Luis Ruiz Pavón <luis_ruiz_pavon@hotmail.com>"
+    ],
+    "description": "Grunt and Bower integration in VS 2013 dotNetSpainConference",
+    "license": "MIT",
+    "homepage": "www.geeks.ms/blogs/lruiz",
+    "private": true,
+    "dependencies": {
+        "jquery": "2.1.3"
+    },
+    "exportsOverride": {
+        "jquery": {
+            "/": "dist/jquery.{js,min.js,min.map}"
+        }
+    }
+}
